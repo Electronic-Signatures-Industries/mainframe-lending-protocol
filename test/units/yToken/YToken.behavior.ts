@@ -61,7 +61,7 @@ export function shouldBehaveLikeYToken(): void {
   });
 
   describe("Effects Functions", function () {
-    describe("borrow", function () {
+    describe.only("borrow", function () {
       shouldBehaveLikeBorrow();
     });
 
